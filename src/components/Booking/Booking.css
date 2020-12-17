@@ -1,0 +1,62 @@
+.booking{
+    min-width:100%;   
+    z-index: -1;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) url('../../Images/1.png');
+    background-size: cover ;
+    background-position: 50%;
+    height: 100vh;
+}
+
+.booking1{
+    padding-top:140px;
+}
+.booking2 h1 {
+    font-family: 'Oswald';
+    font-size: 60px;
+    font-weight: bold;
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    padding: 10px;
+    margin: 0;
+  }
+  .booking2 p{
+      font-family:'Poppins' 'sans-serif';
+      color: #fff;
+      margin: 0px;
+      padding: 10px
+  }
+.date{
+      width:100%;
+      max-width: 48%;
+  }
+Form input[type=text]{
+    background-color:#ECECEC;
+}
+Form input[type=date]{
+    background-color:#ECECEC;
+}
+.form{
+    width:100%;
+    max-width: 90%;
+    padding: 16px;
+    background-color:white;
+    border-radius:10px;
+}
+.form label{
+    color:black;
+}
+.d-block{
+    width:100%;
+}
+.form-calender div{
+    width:49%;
+}
+.from{
+    margin-right: 12px;
+}
+.form-calender label{
+    color:black;
+}

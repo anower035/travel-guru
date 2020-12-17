@@ -1,12 +1,12 @@
 var location = [
   {
       id: 1,
-      title: 'Sajek Valley',
-      details: 'Sajek Valley is an emerging tourist spot in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District.',
+      title: 'Cox Bazar',
+      details: 'Cox Bazar is a district in the Chittagong Division of Bangladesh.In the year 1984, Cox Bazar was upgraded into a District from a Sub Division under the Chittagong Division.It is named after Cox Bazar town. It is located 150 kilometres south of Chittagong.',
       img_link: 'https://i.ibb.co/GTNqZMS/Sajek.png',
 
       hotel_img: 'https://i.ibb.co/Gn13Q5T/Rectangle-28.png',
-      hotel_name: 'Sajek Resort RungRang cottage',
+      hotel_name: 'Cox Bazar Resort RungRang cottage',
       hotel_price: '3259',
       availables: '4 guests 2 bedrooms',
       hotel_description: 'Cancellation flexibility available',

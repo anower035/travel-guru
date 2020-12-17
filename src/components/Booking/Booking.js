@@ -24,10 +24,9 @@ const Booking = () => {
                 <div class="header-content-wrapper mt-5">
                     <div class="w-100">
                     <div class="row w-100">
-                        <div class="col-lg-6 text-center">
-                            <img id="bookingimg" src={placedetails.img_link}></img>
-                            <h1 class="display-4">{placedetails.title}</h1>
-                        <p>
+                        <div class="col-lg-6 text-left">
+                            <h1 class="heading">{placedetails.title}</h1>
+                        <p className='description'>
                             {placedetails.details}
                         </p>
                         </div>

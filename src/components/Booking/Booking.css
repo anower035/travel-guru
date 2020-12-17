@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 .booking{
     min-width:100%;   
     z-index: -1;
@@ -60,3 +61,20 @@ Form input[type=date]{
 .form-calender label{
     color:black;
 }
+.description{
+    color:white;
+    font-size: 18px;
+    max-height: 55px;
+    opacity: 1;
+    position: relative;
+    margin-top:10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+  }
+  .heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+    color:white;     
+  }

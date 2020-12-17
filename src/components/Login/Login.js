@@ -7,6 +7,7 @@ import { Button } from '@material-ui/core';
 import './Login.css'
 import { Container, Form, FormControl } from 'react-bootstrap';
 import { UserContext } from '../../App';
+import Header from '../Header/Header';
 
 initializeLoginFramework()
 
@@ -93,6 +94,7 @@ function Login() {
 
   return (
     <Container className="text-center text-white">
+      <Header></Header>
         <div id="login" className="mx-auto p-3 rounded" style={{textAlign: 'center'}}>
           <Form onSubmit={handleSubmit}>
                     <h3 className="my-4">{newUser ? 'Create an account' : 'Login'}</h3>
@@ -132,12 +134,12 @@ function Login() {
                 </Form>
                     <hr className="bg-white" />
                     
-                    <Button variant="light" className="my-3 rounded-pill" onClick={googleSignIn}>
+                    <Button variant="outlined" className="my-3 rounded-pill" onClick={googleSignIn}>
                         <img src={google} className="icon" alt=""/>
                         <h6>Sign in with Google</h6>
                     </Button>
                     <br/>
-                    <Button variant="light" className="my-3 rounded-pill" onClick={fbSignIn} >
+                    <Button variant="outlined" className="my-3 rounded-pill" onClick={fbSignIn} >
                         <img src={fb} className="icon" alt=""/>
                         <h6>Sign in with Facebook</h6>
                     </Button>

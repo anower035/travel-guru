@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import logo from '../../Images/Logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -10,6 +10,14 @@ import { Form, FormControl } from 'react-bootstrap';
 
 const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const [user, setUser] = useState({
+      isSignedIn: false,
+      name: '',
+      email: '',
+      password: '',
+      photo: ''
+    });
+    
       return (
             <div>
               <nav class="navbar navbar-expand-lg text-light pt-4 text-primary">
@@ -42,8 +50,9 @@ const Header = () => {
                         <Link class="nav-link" to="/contact">Contact</Link>
                       </li>
                     </ul>
-                    <Link to="/login" id="loginButton" class="btn btn-warning">Login</Link>
-                    <button id="logoutButton" class="btn btn-primary my-2 my-sm-2" onClick={() => setLoggedInUser({})}>Logout</button>
+                    {user ? <button id="logoutButton" class="btn btn-primary my-2 my-sm-2" onClick={() => setLoggedInUser({})}>Logout</button>
+                          : <Link to="/login" id="loginButton" class="btn btn-warning">Login</Link>
+                    }
                   </div>
                 </div>
               </nav>

@@ -25,7 +25,7 @@ function Body() {
                 everything that made it almost like 100 (or even 200) countries
                 melted beautifully into one.<br/>
                 <Link to="/booking/1">
-                  <Button variant="warning" className="px-5 btn2">Booking <FaArrowRight /></Button>
+                  <Button variant="warning" className="px-5 btn2"><strong>Booking</strong> <FaArrowRight /></Button>
                 </Link>
               </p> 
             </div>

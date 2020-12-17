@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 .content {
   position: absolute;
   top: 140px;
@@ -54,7 +55,7 @@
   margin-top:10px;
   margin-bottom: 5px;
   text-align: left;
-  font-family:'Poppins' 'sans-serif';
+  font-family: 'Poppins', sans-serif;
 }
 .destination img{
   height:100px;

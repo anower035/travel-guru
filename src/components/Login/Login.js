@@ -46,8 +46,11 @@ function Login() {
       setUser(res);
       setLoggedInUser({...res});
       history.replace(from);
+      console.log(res);
     })
+    .catch(err => console.log(err));
   }
+
 
 
 

@@ -41,6 +41,7 @@ export const handleGoogleSignIn = () =>{
      
     }).catch(function(error) {
       console.log(error)
+      return error;
       var errorCode = error.code;
       var errorMessage = error.message;
     });
